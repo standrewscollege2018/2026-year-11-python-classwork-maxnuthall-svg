@@ -2,5 +2,29 @@
 #print() is aa function that outputs whatever is insad the brackets
 print(123)
 
-#when printing text, it must be in speech marks it tunrnes int a string
+#when printing text, it must be in speech marks it turns into a string 
 print("Hello World")
+
+# there are lots of different data types
+#integers, decimals (floating point numbers)
+#text (string), boolean (true or false)
+
+# We use variables to store data
+#variable must always be lowercase
+#if you want multipule words in the variable name, use underscore
+name = "max"
+first_name = "maximilian"
+last_name = "nuthall"
+age = 16 
+
+#you can include variables inside print() statments
+print(name, first_name, last_name, age)
+
+#the variables go inside curly brackets and are separated by commas
+print(f"My name is {name} and I am {age} years old")
+
+#we use input() to get input from the user
+user_name = input("What is your name? ")
+print(f"Hello {user_name}")
+
+user_age = input(f"how old are you {user_name}?")
