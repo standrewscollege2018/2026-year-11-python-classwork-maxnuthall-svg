@@ -1,0 +1,6 @@
+'''This program demonstratesprint(""), data types, variables, inputs and f-strings'''
+#print() is aa function that outputs whatever is insad the brackets
+print(123)
+
+#when printing text, it must be in speech marks it tunrnes int a string
+print("Hello World")
