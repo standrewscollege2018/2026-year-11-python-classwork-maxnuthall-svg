@@ -7,5 +7,6 @@ while askforguess == True:
     if number == 3:
         print ("you got it right")
         askforguess = False
+    elif 10
     else:
         print("try again")
