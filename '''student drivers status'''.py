@@ -5,11 +5,9 @@ changing = "yes"
 
 print ("student drivers status")
 print ("=======================")
-get_number = True
-while name == True:
+errorcatching = True
+while errorcatching == True:
     try:
-        name = int(input("Enter a name: "))
-        name = False
 for i in range(len(names)):
     print (f"{i+1} {names[i]:>10} {licensestatus[i]:>15}")
 while changing != "n":
@@ -20,7 +18,7 @@ while changing != "n":
             newstatus = input("enter the new license status:")
             index = names.index(name)
             licensestatus[index] = newstatus
+        exept ValueError:
+
         else:
             print("name not found")
-    except ValueError:
-        print("invalid input")
