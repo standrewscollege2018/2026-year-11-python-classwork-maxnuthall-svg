@@ -7,14 +7,16 @@ avalibility = ["avalible", "avalible", "avalible", "avalible", "avalible", "aval
 
 run_program = True
 while run_program == True:
-    #get the name of user
-    get_name = True
-    while get_name == True:
-        name = input("enter your name")
-        if name == "":
-            print("enter a valid name")
-        else:  
-            get_name = False
+    try:
+        #get the name of user
+        get_name = True
+        while get_name == True:
+            name = input("enter your name")
+            if name == "":
+                print("enter a valid name")
+    except TypeError:
+            else:  
+             get_name = False
     #print the avalible cars
     print ("rental car status")
     for i in range (len(cars)):
